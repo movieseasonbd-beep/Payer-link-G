@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Link Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Player Link Generator</h1>
+        <p>আপনার ভিডিও এবং পোস্টার লিঙ্ক দিন এবং প্লেয়ারের জন্য একটি নতুন লিঙ্ক তৈরি করুন।</p>
+        
+        <div class="form-group">
+            <label for="video-link">ভিডিও লিঙ্ক (.m3u8, .mp4, etc.)</label>
+            <input type="url" id="video-link" placeholder="এখানে ভিডিও লিঙ্ক পেস্ট করুন" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="poster-link">পোস্টার লিঙ্ক (.jpg, .png, etc.)</label>
+            <input type="url" id="poster-link" placeholder="এখানে পোস্টার লিঙ্ক পেস্ট করুন" required>
+        </div>
+        
+        <button id="generate-btn">লিঙ্ক তৈরি করুন</button>
+        
+        <div id="output-container" class="hidden">
+            <h2>আপনার তৈরি করা লিঙ্ক</h2>
+            <div class="output-box">
+                <input type="text" id="output-link" readonly>
+                <button id="copy-btn">কপি করুন</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
