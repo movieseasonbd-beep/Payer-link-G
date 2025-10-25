@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // আপনার প্লেয়ারের মূল URL
-        const basePlayerURL = 'https://movieseasonbd-beep.github.io/player/';
+        const basePlayerURL = 'https://movieseason-player.vercel.app/';
 
         // URL প্যারামিটারগুলো এনকোড করা, যাতে লিঙ্কে কোনো সমস্যা না হয়
         const encodedVideoLink = encodeURIComponent(videoLink);
